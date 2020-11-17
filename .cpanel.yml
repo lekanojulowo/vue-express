@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fethipae/vue-express.fethiobgyn.com/
+    - /bin/cp -R * $DEPLOYPATH
